@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Seminar Information</title>
+	</head>
+	<body>
+		<form action="input.jsp" method="post">
+		<div style="border:1px solid black;">
+			<h3>&nbsp;세미나 정보</h3>
+			<p>
+				&nbsp;1. 주제 : 차세대 웹 표준 기술 HTML<br>
+				&nbsp;2. 일정 :  5월 12일 14:00 ~ 17:00<br>
+				&nbsp;3. 장소 : 공학관 2층 세미나실<br>
+				&nbsp;4. 인원 : 선착순 100명<br>
+				&nbsp;5. 비용 : 본교 학생 무료 (외부 참가자 5,000원)<br>
+				&nbsp;6. 참가신청 : 아래 양식에 빠짐없이 기입하여 접수해 주세요.<br>
+			</p>
+		</div>
+		<div>
+			<h3>&nbsp;개인 정보</h3>
+			<p>
+					&nbsp;이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+					&nbsp;비밀번호 <input type="password" name="pass"> (수정시 필요)
+			</p>
+		</div>
+		<div>
+			<h3>&nbsp;참가 정보</h3>
+			<p>
+				<fieldset>
+					<legend>참가 유형 선택</legend>
+					<input type="radio" name="attendtype" value="free">무료(교내참가자)
+					<input type="radio" name="attendtype" value="paid">유료(교외참가자)
+				</fieldset>
+			</p>
+			<p>
+				<fieldset>
+					<legend>관심 분야 선택</legend>
+					<input type="radio" name="field" value="html5">HTML5 시멘틱
+					<input type="radio" name="field" value="css3">CSS3
+					<input type="radio" name="field" value="storage">Web Storage
+					<input type="radio" name="field" value="socket">Web Socket
+					<input type="radio" name="field" value="canvas">Canvas
+					<input type="radio" name="field" value="geolocation">Geolocation
+				</fieldset>
+			</p>
+		</div>
+		<div>
+			<h3>&nbsp;선택사항</h3>
+			<p>
+				&nbsp;직업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+				<select name="jobs">
+					<option value="unselected" selected>가까운 분야 선택</option>
+					<option value="student">학생</option>
+					<option value="webdeveloper">웹개발</option>
+					<option value="webdesigner">웹디자인</option>
+					<option value="educator">교육관련</option>
+					<option value="else">기타</option>
+				</select>
+			</p>
+			<p>
+				&nbsp;남길 말씀
+				<textarea name="opinion" rows="5" cols="50"></textarea>
+			</p>
+			
+		</div>
+		<hr>
+		<input type="submit" value="접수하기">
+		<input type="reset" value="다시쓰기">
+		</form>
+	</body>
+</html>
