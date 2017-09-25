@@ -16,16 +16,12 @@
 			a.newlink:link { color:purple;}
 			a.newlink:visited { color:red;}
 			a.newlink:hover { color:purple;background-color:white;}
-			
+			.floating { position: fixed; right: 50%; top: 50px; margin-right: -720px; text-align:center; width: 120px; }
+
 		</style>
 	</head>
 	<body>
 		<h2>CYP ARCHIVE</h2>
-		<fieldset id="bgm_player">
-			<audio src="BGM.mp3" autoplay loop controls>
-				Your browser does not support the audio element.
-			</audio>
-		</fieldset>
 		<fieldset>
 			<ol>
 				<legend><h3 id="index">Index</h3></legend>
@@ -46,6 +42,12 @@
 					</ul>
 				</p>
 			</fieldset>
+		</div>
+	
+		<div class="floating">
+			<audio src="BGM.mp3" autoplay loop controls>
+				Your browser does not support the audio element.
+			</audio>
 		</div>
 	</body>
 </html>
