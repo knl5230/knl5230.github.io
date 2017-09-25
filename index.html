@@ -17,9 +17,11 @@
 			a.newlink:link { color:purple;}
 			a.newlink:visited { color:red;}
 			a.newlink:hover { color:purple;background-color:white;}
+			.boundary { 
+			.main { margin: 5px; float:left; }
+			.side { margin : 5px; float: right;}
 			.floating { position: fixed; right: 50%; top: 50px; float:right; margin: 5px; text-align:center; width: 120px; }
 			.floating { border: 2px solid black; }
-			.main { margin: 5px; float:left; }
 
 		</style>
 	</head>
@@ -34,7 +36,7 @@
 				</p>
 			</ol>		
 		</fieldset>
-		<div>
+		<div class = "boundary">
 			<div class = "main">
 				<fieldset>
 					<legend><h3 id = "SE IV"><a href = "#index">Software ExperimentIV</a></h3></legend>
@@ -49,10 +51,12 @@
 				</fieldset>
 			</div>
 	
-			<div class="floating">
-				<audio src="BGM.mp3" autoplay loop controls>
-					Your browser does not support the audio element.
-				</audio>
+			<div class="side">
+				<div class="floating">
+					<audio src="BGM.mp3" autoplay loop controls>
+						Your browser does not support the audio element.
+					</audio>
+				</div>
 			</div>
 		</div>
 	</body>
