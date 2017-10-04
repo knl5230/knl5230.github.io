@@ -9,6 +9,7 @@
 				border : 2px solid black;
 				margin: 5px;
 				padding: 5px;
+				text-aligan: center;
 			}
 			body {background-image: url('bgimage.jpg');}
 			audio
@@ -23,6 +24,9 @@
 			a.newlink:link { color:purple;}
 			a.newlink:visited { color:red;}
 			a.newlink:hover { color:purple;background-color:white;}
+			a.titlelink:link { color: black;}
+			a.titlelink:visited { color: black;}
+			a.titlelink:hover { color: black; }
 			.outer {min-height: 700px;}
 			.index { width: 250px; margin: 5px; padding: 5px; border : 2px solid black; }
 			.boundary { padding: 5px; }
@@ -35,13 +39,13 @@
 	<body>
 		<div class = "outer">
 			
-			
+			<div class= "logo">
+				<h2><span id = "page_title"><a class="titlelink" href="index.html">CYP ARCHIVE</a></span></h2>
+			</div>
 			<div class = "side_left">
 			</div>
 			<div class = "main">
-				<div class= "logo">
-					<h2><span id = "page_title">CYP ARCHIVE</span></h2>
-				</div>
+				
 				<div class = "index">
 					<ol>
 						<h3 id="index">Index</h3>
