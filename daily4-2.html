@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>daily4-2</title>
+		<style>
+			#change
+			{
+				width: 100px;
+				height: 100px;
+				position: relative;
+				animation: 3s changing;
+				animation-iteration-count: 20;
+				border: 2px solid black;
+			}
+
+			@keyframes changing
+			{
+				0% {background-color:red;border-radius:100px;left:0px;top:0px;}
+				25% {background-color:green;border-radius:0px;left:200px;top:0px;}
+				50% {background-color:yellow;border-radius:100px;left:400px;top:0px;}
+				75% {background-color:green;border-radius:0px;left:200px;top:0px;}
+				100% {background-color:red;border-radius:100px;left:0px;top:0px;}
+			}	
+		</style>
+	</head>
+	<body>
+		<div id="change">
+		</div>
+	</body>
+</html>
