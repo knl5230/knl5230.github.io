@@ -18,16 +18,6 @@
 				margin: 5px;
 				padding: 5px;
 			}
-			a:link {color:darkblue;}
-			a:visited {color:darkblue;}
-			a:hover{color:blue;}
-			a.newlink:link { color:purple;}
-			a.newlink:visited { color:red;}
-			a.newlink:hover { color:purple;background-color:white;}
-			a.titlelink { text-decoration: none; }
-			a.titlelink:link {color:black;}
-			a.titlelink:visited {color:black;}
-			a.titlelink:hover {color:black;}
 			.outer {min-height: 700px; overflow:hidden;} 
 			.logo {text-align: center;}
 			.side_left { height: 700px; width: 13%; float:left;}
@@ -42,7 +32,32 @@
 				background-color:white;
 			}
 			.side_right { height:700px; width: 13%; float:right; overflow:hidden;}
+			.outlink 
+			{ 
+				margin: 2px; 
+				position: fixed;
+				top:30%; 
+				width: 10%; 
+				height: 300px;
+				z-index: 300; 
+				background-color:white;
+				overflow:hidden;
+			}
 			.bottom_floating { margin: 5px; position: fixed; bottom: 10px; left: 13%; width: 85%; height: 30px; z-index: 300; }
+			a:link {color:darkblue;}
+			a:visited {color:darkblue;}
+			a:hover{color:blue;}
+			a.newlink:link { color:purple;}
+			a.newlink:visited { color:red;}
+			a.newlink:hover { color:purple;background-color:white;}
+			a.titlelink { text-decoration: none; }
+			a.titlelink:link {color:black;}
+			a.titlelink:visited {color:black;}
+			a.titlelink:hover {color:black;}
+			a.newoutlink { text-decoration: none; }
+			a.newoutlink:link { color:black; }
+			a.newoutlink:visited { color:black; }
+			a.newoutlink:hover { color:black; }
 		</style>
 	</head>
 	<body>
@@ -92,9 +107,12 @@
 			</div>
 			<div class = "side_right">
 				<div class = "outlink">
+					<h4>Out Link</h4>
 					<ul>
 						<li><a class="newoutlink" href = "http://www.skku.edu/" target = "blank">SKKU</a></li>
 						<li><a class ="newoutlink" href = "http://www.icampus.ac.kr" target = "blank">SKKU Icampus</a></li>
+						<li><a class ="newoutlink" href = "https://seclab.skku.edu/" target = "blank">Seclab</a></li>
+						<li><a class ="newoutlink" href = "http://arcs.skku.edu/" target = "blank">ARCS Lab</a></li>
 						<li><a class="newoutlink" href = "http://icpckorea.org/" target = "blank">ICPC Korea</a></li>
 					</ul>
 				</div>
