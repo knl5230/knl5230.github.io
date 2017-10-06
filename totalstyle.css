@@ -58,7 +58,6 @@
 			a.newoutlink { text-decoration: none; }
 			a.newoutlink:link { color:black; }
 			a.newoutlink:visited { color:black; }
-			a.newoutlink:hover { color:black; }
 			a.titlename { text-decoration: none; }
 			a.titlename:link { color:blue; }
 			a.titlename:visited { color:blue; }
