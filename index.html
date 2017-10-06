@@ -65,6 +65,30 @@
 			a.titlename:link { color:blue; }
 			a.titlename:visited { color:blue; }
 			a.titlename:hover { color:blue; }
+			#hots
+			{
+				width: 50px;
+				height: 50px;
+			}
+			#hots:hover
+			{
+				animation: 0.3s heroes;
+				animation-iteration-count: 100;
+			}
+			@keyframes heroes
+			{
+				0% {transform: rotate(0deg);}
+				10% {transform:rotate(36deg);}
+				20% {transform:rotate(72deg);}
+				30% {transform:rotate(108deg);}
+				40% {transform:rotate(144deg);}
+				50% {transform:rotate(180deg);}
+				60% {transform:rotate(216deg);}
+				70% {transform:rotate(252deg);}
+				80% {transform:rotate(288deg);}
+				90% {transform:rotate(324deg);}
+				100% {transform:rotate(360deg);}
+			}
 		</style>
 	</head>
 	<body>
@@ -76,7 +100,59 @@
 			<div class = "side_left">
 			</div>
 			<div class = "main">
-			
+				<h3>Front Page</h3>
+				<div class = "index">
+					<ol>
+						<h3 id="index">Index</h3>
+						<p>
+							<li><a href="#Introduction">About This Site</a></li>
+							<li><a href="#Timetable">Time Table</a></li>
+							<li><a href="#Lecture">Lecture</a></li>
+							<li><a href="#Assignment">Assignment</a></li>
+							<li><a href="#Others">Others</a></li>
+						</p>
+					</ol>	
+				</div>
+				<div id = "Introduction">
+					<fieldset>
+						<legend><h2><a class="titlename" href = "#index">About This Site</a></h2></legend>
+						<p>
+							This page is made for archiving files of this Semester
+						</p>
+					</fieldset>
+				</div>
+				<div id = "Timetable">
+					<fieldset>
+						<legend><h2><a class="titlename" href = "#index">Timetable</a></h2></legend>
+						<p>
+							blank
+						</p>
+					</fieldset>
+				</div>
+				<div id = "Lecture">
+					<fieldset>
+						<legend><h2><a class="titlename" href = "#index">Lecture</a></h2></legend>
+						<p>
+							blank
+						</p>
+					</fieldset>
+				</div>
+				<div id = "Assignment">
+					<fieldset>
+						<legend><h2><a class="titlename" href = "#index">Assignment</a></h2></legend>
+						<p>
+							<a class="newlink" href="Assignment.html">Go to the Assignment Page</a>
+						</p>
+					</fieldset>
+				</div>
+				<div id = "Others">
+					<fieldset>
+						<legend><h2><a class="titlename" href = "#index">Others</a></h2></legend>
+						<div id="hots">
+							<a href="http://kr.battle.net/heroes/ko/"><img src = "HOTS.png"></a>
+						</div>
+					</fieldset>
+				</div>
 			</div>
 			<div class = "side_right">
 				<div class = "outlink">
