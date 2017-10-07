@@ -32,6 +32,7 @@
 			.side_right { height:700px; width: 13%; float:right; overflow:hidden;}
 			.login
 			{
+				font-family: "Courier";
 				margin: 2px;
 				padding: 5px;
 				position: fixed;
