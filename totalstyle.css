@@ -19,7 +19,7 @@
 			.outer {min-height: 700px; overflow:hidden;} 
 			.logo {text-align: center;}
 			.side_left { height: 700px; width: 13%; float:left;}
-			.index { width: 250px; margin: 5px; padding: 5px; border : 2px solid black; }
+			.index { width: 250px; margin: 5px; padding: 5px; border : 1px solid black; }
 			.main 
 			{
 				padding: 10px; 
