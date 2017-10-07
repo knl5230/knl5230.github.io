@@ -2,6 +2,12 @@
 	<head>
 		<title>CYP ARCHIVE REGISTRY</title>
 		<link rel="stylesheet" href="totalstyle.css" type="text/css">
+		<style>
+			.registry
+			{
+				text-align:center;
+			}
+		</style>
 	</head>
 	<body>
 		<div class = "outer">
@@ -11,7 +17,15 @@
 			<div class = "side_left">
 			</div>
 			<div class = "main">
-				<div>
+				<div class = "registry">
+					<form action="registry.jsp" method="post">
+						<form action="IDconfirm.jsp" method="post">
+							ID: <input type="text" name="id">&nbsp;<input type="submit" value="중복확인">
+						</form>
+						PW: <input type="password" name="password">
+						email: <input type="email" name="email">
+						<input type="submit" value="회원가입">
+					</form>
 					
 				</div>
 			</div>
