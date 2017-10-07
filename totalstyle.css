@@ -30,6 +30,20 @@
 				background-color:white;
 			}
 			.side_right { height:700px; width: 13%; float:right; overflow:hidden;}
+			.login
+			{
+				margin: 2px;
+				padding: 5px;
+				position: fixed;
+				top: 5%;
+				width: 10%;
+				height: 100px;
+				z-index: 300;
+				background-color:white;
+				overflow:hidden;
+				border: 2px solid black;
+			}
+	
 			.outlink 
 			{ 
 				margin: 2px; 
