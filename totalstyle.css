@@ -34,7 +34,7 @@
 			{
 				font-family: courier;
 				margin: 2px;
-				padding: 5px;
+				padding: 300px;
 				position: fixed;
 				top: 5%;
 				width: 10%;
@@ -44,8 +44,6 @@
 				overflow:hidden;
 				border: 2px solid black;
 				text-align: center;
-				display:table-cell;
-				vertical-align: middle;
 			}
 			
 			.outlink 
