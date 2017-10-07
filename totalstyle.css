@@ -37,7 +37,7 @@
 				position: fixed;
 				top: 5%;
 				width: 10%;
-				height: 100px;
+				min_height: 130px;
 				z-index: 300;
 				background-color:white;
 				overflow:hidden;
