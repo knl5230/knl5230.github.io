@@ -17,7 +17,8 @@
 				padding: 5px;
 			}
 			.outer {min-height: 700px; overflow:hidden;} 
-			.logo {text-align: center;}
+			.logo {text-align: center; background-cplor:black; padding: 3px; margin:0px}
+			.logo ul li { display:inline;
 			.side_left { height: 700px; width: 13%; float:left;}
 			.index { width: 250px; margin: 5px; padding: 5px; border : 1px solid black; }
 			.main 
