@@ -13,12 +13,17 @@
 			table th
 			{
 				border: 1px solid black;
-				padding: 3px;
+				padding: 2px;
 			}
 			table tr td
 			{
+				border: 1px dotted black;
+				padding: 2px;
+			}
+			.first
+			{
 				border: 1px solid black;
-				padding: 3px;
+				border-collapse: collapse;
 			}
 			.header { background-color:#FAFAFA;}
 			.odd { background-color:#FBEFF8; }
@@ -29,10 +34,7 @@
 		<div class = "outer">
 			
 			<div class= "logo">
-				<ul>
-					<li><h2><span id = "page_title"><a class="titlelink" href="index.html">CYP ARCHIVE</a></span></h2></li>
-					<li>NONE</li>
-				</ul>
+				<h2><span id = "page_title"><a class="titlelink" href="index.html">CYP ARCHIVE</a></span></h2>
 			</div>
 			<div class = "side_left">
 			</div>
@@ -62,7 +64,7 @@
 					<fieldset>
 						<legend><h3><a class="titlename" href = "#index">Time Table</a></h2></legend>
 						<p>
-							<a href="TT_Large.png" target="blank"><img src="TT.png"></img></a>
+							<img src="TT.png"></img>
 						</p>
 					</fieldset>
 				</div>
@@ -80,14 +82,14 @@
 									<th>Software Experiment IV</th>
 								</tr>
 								<tr class = "odd">
-									<td>Week 1</td>
+									<td class="first">Week 1</td>
 									<td><a class="newlink" href="Network/week1.pdf" target="blank">PDF</a></td>
 									<td><a class="newlink" href="Security/week1.pdf" target="blank">PDF</a></td>
 									<td><a class="newlink" href="Compiler/week1.pdf" target="blank">PDF</a></td>
 									<td>NONE</td>
 								</tr>
 								<tr class = "even">
-									<td>Week 2</td>
+									<td class="first">Week 2</td>
 									<td><a class="newlink" href="Network/week2.pdf" target="blank">PDF</a></td>
 									<td>NONE</td>
 									<td><a class="newlink" href="Compiler/week2.pdf" target="blank">PDF</a></td>
@@ -97,7 +99,7 @@
 									</td>
 								</tr>
 								<tr class = "odd">
-									<td>Week 3</td>
+									<td class="first">Week 3</td>
 									<td><a class="newlink" href="Network/week3.pdf" target="blank">PDF</a></td>
 									<td><a class="newlink" href="Security/week3.pdf" target="blank">PDF</a></td>
 									<td>
@@ -109,7 +111,7 @@
 									</td>
 								</tr>
 								<tr class = "even">
-									<td>Week 4</td>
+									<td class="first">Week 4</td>
 									<td>NONE</td>
 									<td><a class="newlink" href="Security/week4.pdf" target="blank">PDF</a></td>
 									<td>
@@ -121,7 +123,7 @@
 									</td>
 								</tr>
 								<tr class = "odd">
-									<td>Week 5</td>
+									<td class="first">Week 5</td>
 									<td><a class="newlink" href="Network/week5.pdf" target="blank">PDF</a></td>
 									<td><a class="newlink" href="Security/week5.pdf" target="blank">PDF</a></td>
 									<td>
@@ -134,7 +136,7 @@
 									</td>
 								</tr>
 								<tr class = "even">
-									<td>Week 6</td>
+									<td class="first">Week 6</td>
 									<td></td>
 									<td></td>
 									<td></td>
