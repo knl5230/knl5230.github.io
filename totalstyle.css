@@ -48,8 +48,8 @@
 			a:link {color:darkblue;}
 			a:visited {color:darkblue;}
 			a:hover{color:blue;}
-			a.newlink:link { color:purple;}
-			a.newlink:visited { color:red;}
+			a.newlink:link { color:#8000FF;}
+			a.newlink:visited { color:#FF4000;}
 			a.newlink:hover { color:purple;background-color:white;}
 			a.titlelink { text-decoration: none; }
 			a.titlelink:link {color:black;}
