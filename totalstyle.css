@@ -44,14 +44,10 @@
 				overflow:hidden;
 				border: 2px solid black;
 				text-align: center;
-				display:table;
-			}
-			.contain
-			{
 				display:table-cell;
-				vertical-align:middle;
+				vertical=align: middle;
 			}
-	
+			
 			.outlink 
 			{ 
 				margin: 2px; 
