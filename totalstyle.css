@@ -28,8 +28,10 @@ audio {	width: 500px; margin: 5px; padding: 5px; }
 	min-height: 50px; 
 	width: 70%;
 	float:left;
-	background-color:white;
+	background-color:#FAFAFA;
 }
+
+.main div {background-color:white;}
 
 .index { width: 300px; margin: 5px; padding: 5px; border : 1px solid black; }
 
