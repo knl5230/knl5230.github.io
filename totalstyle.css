@@ -31,7 +31,7 @@ audio {	width: 500px; margin: 5px; padding: 5px; }
 	background-color:white;
 }
 
-.index { width: 250px; margin: 5px; padding: 5px; border : 1px solid black; }
+.index { width: 300px; margin: 5px; padding: 5px; border : 1px solid black; }
 
 .side_right { height:700px; width: 13%; float:right; overflow:hidden;}
 			
